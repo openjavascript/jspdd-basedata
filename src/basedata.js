@@ -1,6 +1,7 @@
 
 export default class BaseData {
-    constructor() {
+    constructor( srcData, newData, descData) {
+
         this.api;
         this.userName = '';
         this.userId = '';
