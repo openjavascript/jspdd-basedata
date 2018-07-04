@@ -14,6 +14,8 @@ var BaseData = function BaseData(srcData, newData, descData) {
     this.userId = '';
     this.alldata = 1;
 
+    this.datakey_prefix = '';
+
     this.testkey = 'BaseData.testkey ' + Date.now();
 };
 
